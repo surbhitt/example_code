@@ -35,7 +35,7 @@ int main(int argc, char** argv) {
 	char buffer[1024];
 	// do client stuff
 	ssize_t recvd = recv(sfd, buffer, 1024-1, 0);
-	printf("%10242424242424242424242424242424242424242424242424s\n", buffer);
+	printf("%1024s\n", buffer);
 	close(sfd);
 	return 0;
 	
